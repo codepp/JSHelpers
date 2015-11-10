@@ -3,9 +3,9 @@
  * Sets up a relationship between two text boxes, transforming them into related date picker widgets.
  * Written on: 	10.11.2015
  * Version: 	0.1a
- * @param 		{string} 		strStartID: the ID of the textbox to be transformed into a "starting date" date picker.
- * @param 		{string} 		strEndID: the ID of the textbox to be transformed into an "ending date" date picker.
- * @param 		{string} 		strDateFormat   
+ * @param 		{string} 		strStartID: 		the ID of the textbox to be transformed into a "starting date" date picker.
+ * @param 		{string} 		strEndID: 			the ID of the textbox to be transformed into an "ending date" date picker.
+ * @param 		{string} 		strDateFormat: 	the date format to be used. Defaults to dd/mm/yy.
  * 
  */
 function bootstrapStartEndRelationship(strStartID, strEndID, strDateFormat) {
