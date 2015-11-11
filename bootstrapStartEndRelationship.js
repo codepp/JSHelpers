@@ -20,7 +20,7 @@ function bootstrapStartEndRelationship(strStartID, strEndID, strDateFormat) {
 		if (txtStartDate.length && txtEndDate.length) { // Do these selectors actually exist?
 			txtStartDate.datepicker({dateFormat: strDateFormat});
 			txtStartDate.change(function(){
-				var selectedStartDate = txtStartDate.datePicker("getDate");
+				var selectedStartDate = txtStartDate.datepicker("getDate");
 				txtEndDate.datepicker("option", "setDate", selectedStartDate);
 				txtEndDate.datepicker("option", "minDate", selectedStartDate);		
 			}).change();
